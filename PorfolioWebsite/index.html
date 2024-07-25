@@ -9,34 +9,36 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <nav class="nav-bar" data-background="000000">
-                <a href="#" class="nav-a">Home <span></span></a>
-                <a href="#about" class="nav-a">About <span></span></a>
-                <a href="#" class="nav-a">Skill <span></span></a>
-                <a href="#" class="nav-a">Projects <span></span></a>
-                <a href="#" class="nav-a">Achievement <span></span></a>
-                <a href="#" class="nav-a">Contact <span></span></a>
-            </nav>
-        </header>
-        <div class="home" data-background="000000">
-            <div class="greet">
-                <div class="line">Hola</div>
-                <div class="line">こんにちは</div>
-                <div class="line">Olá</div>
-                <div class="line">Bonjour</div>
-                <div class="line">नमस्ते</div>
-                <div class="line">Привет</div>
-                <div class="line">Ciao</div>
+        <section class="main">
+            <header>
+                <nav class="nav-bar">
+                    <a href="#" class="nav-a">Home <span></span></a>
+                    <a href="#" class="nav-a">About <span></span></a>
+                    <a href="#" class="nav-a">Skill <span></span></a>
+                    <a href="#" class="nav-a">Projects <span></span></a>
+                    <a href="#" class="nav-a">Achievement <span></span></a>
+                    <a href="#" class="nav-a">Contact <span></span></a>
+                </nav>
+            </header>
+            <div class="home" data-background="000000">
+                <div class="greet">
+                    <div class="line">Hola</div>
+                    <div class="line">こんにちは</div>
+                    <div class="line">Olá</div>
+                    <div class="line">Bonjour</div>
+                    <div class="line">नमस्ते</div>
+                    <div class="line">Привет</div>
+                    <div class="line">Ciao</div>
+                </div>
+                <div class="intro-one">I'm, <em>Meet</em> Vachhani</div>
+                <div class="intro-two">Code &middot; Sleep &middot; Repeat</div>
+                <div class="btn-container">      
+                    <button class="btn cv" onclick="window.open('./assests/myResume.docx')">Download CV</button>
+                    <button class="btn info">Contact Me</button>
+                </div>
+                <img class="myimg" src="assests/myPhoto.png" alt="">
             </div>
-            <div class="intro-one">I'm, <span style="color: goldenrod;">Meet</span> Vachhani</div>
-            <div class="intro-two">Code &middot; Sleep &middot; Repeat</div>
-            <div class="btn-container">      
-                <button class="btn cv" onclick="window.open('./assests/myResume.docx')">Download CV</button>
-                <button class="btn info">Contact Me</button>
-            </div>
-            <img class="myimg" src="assests/myPhoto.png" alt="">
-        </div>
+        </section>
         <section id="about" class="about">
             <p class="text1">Get To Know More</p>
             <h1 class="title">About Me</h1>
@@ -58,6 +60,110 @@
             <div class="pic">
                 <div class="sec-img">
                     <img class="img2" src="assests/pic2.png" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+        <section class="skill">
+            <h1>SKILLS</h1>
+            <div class="skill-container">
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-python" src="assests/python.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>PYTHON</p>
+                            <span class="bar"></span><span class="s-py"></span><span ></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-java" src="assests/java.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>JAVA</p>
+                            <span class="bar"></span><span class="s-java"></span><span class="s-span"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-cpp" src="assests/cpp.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>C/C++</p>
+                            <span class="bar"></span><span class="s-cpp"></span><span class="s-span"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-js" src="assests/javascript.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>JAVASCRIPT</p>
+                            <span class="bar"></span><span class="s-js"></span><span class="s-span"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-react" src="assests/reactjs.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>REACTJS</p>
+                            <span class="bar"></span><span class="s-react"></span><span class="s-span"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-sql" src="assests/mysql.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>MYSQL</p>
+                            <span class="bar"></span><span class="s-sql"></span><span class="s-span"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-php" src="assests/php.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>PHP</p>
+                            <span class="bar"></span><span class="s-php"></span><span class="s-span"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-wordpress" src="assests/wordpress.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>WORDPRESS</p>
+                            <span class="bar"></span><span class="s-wp"></span><span class="s-span"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="thecard">
+                    <div class="card-inner">
+                        <div class="frontcard">
+                            <img class="icon-figma" src="assests/figma.png" alt="">
+                        </div>
+                        <div class="backcard">
+                            <p>FIGMA</p>
+                            <span class="bar"></span><span class="s-figma"></span><span class="s-span"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -93,32 +199,52 @@
             </div>
         </section>
         <section class="achieve">
-            <p class="titlep">Achievements and Involvements</p>
-            <div class="container-achieve">
-                <div class="text-box lft" >
-                    <h2>Chess Tournament</h2>
-                    <small>2023-Jan</small>
-                    <p>I had the pleasure of participating in the Advitya'23 chess tournament, where my strategic skills and dedication to the game led me to secure the 2nd prize. This achievement was a testament to my analytical thinking, patience, and ability to anticipate and counter opponents' moves. Competing against some of the finest chess players in the tournament was a thrilling experience, and securing a top position has further fueled my passion for the game.</p>
+            <h1 class="achieve-head">Achievements and Involvements</h1>
+            <div class="timeline">
+                <div class="container-timeline lft">
+                    <img src="assests/trophy.jpg" alt="">
+                    <div class="text-box">
+                        <h2>Chess Tournament</h2>
+                        <small>2023-Jan</small>
+                        <p>During my time in school, I served as the Sports Secretary, where I organized and managed various sports events and activities. This role allowed me to develop strong leadership, organizational, and teamwork skills, fostering a spirit of sportsmanship and enthusiasm among students.</p>
+                        <span class="lft-arrow"></span>
+                    </div>
                 </div>
-                <div class="text-box rgt">
-                    <h2>AI Club Event Coordinator</h2>
-                    <small>2023-Current</small>
-                    <p>As the Event Team Coordinator for the AI Club, I led the organization of AI Conclave'24, a successful three-day event featuring workshops, keynotes, and panel discussions. My role involved coordinating with speakers, managing logistics, and fostering team collaboration, enhancing my leadership and organizational skills.</p>
+                <div class="container-timeline rgt">
+                    <img src="assests/trophy.jpg" alt="">
+                    <div class="text-box">
+                        <h2>Chess Tournament</h2>
+                        <small>2023-Jan</small>
+                        <p>I had the pleasure of participating in the Advitya'23 chess tournament, where my strategic skills and dedication to the game led me to secure the 2nd prize. This achievement was a testament to my analytical thinking, patience, and ability to anticipate and counter opponents' moves. Competing against some of the finest chess players in the tournament was a thrilling experience, and securing a top position has further fueled my passion for the game.</p>
+                        <span class="rgt-arrow"></span>
+                    </div>
                 </div>
-                <div class="text-box lft" >
-                    <h2>E-cell Club Event Coordinator</h2>
-                    <small>2024-Current</small>
-                    <p>As a core member of the E-cell Club, I led the Paper Trading competition, overseeing all aspects from planning to execution. This role involved coordinating with participants, managing event logistics, and ensuring a smooth and engaging experience for everyone involved.</p>
+                <div class="container-timeline lft">
+                    <img src="assests/trophy.jpg" alt="">
+                    <div class="text-box">
+                        <h2>AI Club Core Member</h2>
+                        <small>2023-</small>
+                        <p>As the Event Team Coordinator for the AI Club, I led the organization of AI Conclave'24, a successful three-day event featuring workshops, keynotes, and panel discussions. My role involved coordinating with speakers, managing logistics, and fostering team collaboration, enhancing my leadership and organizational skills.</p>
+                        <span class="lft-arrow"></span>
+                    </div>
                 </div>
-                <div class="text-box  rgt">
-                    <h2>Sports Secretary</h2>
-                    <small>2017-2018</small>
-                    <p>During my time in school, I served as the Sports Secretary, where I organized and managed various sports events and activities. This role allowed me to develop strong leadership, organizational, and teamwork skills, fostering a spirit of sportsmanship and enthusiasm among students.</p>
+                <div class="container-timeline rgt">
+                    <img src="assests/trophy.jpg" alt="">
+                    <div class="text-box">
+                        <h2>E-Cell Core Member</h2>
+                        <small>2024-Current</small>
+                        <p>As a core member of the E-cell Club, I led the Paper Trading competition, overseeing all aspects from planning to execution. This role involved coordinating with participants, managing event logistics, and ensuring a smooth and engaging experience for everyone involved.</p>
+                        <span class="rgt-arrow"></span>
+                    </div>
                 </div>
-                <div class="text-box lft" >
-                    <h2>Active Communist</h2>
-                    <small>2019-Current</small>
-                    <p>I actively serve the old age home community, dedicating my time to supporting and engaging with the elderly. This experience has been incredibly rewarding, as it allows me to give back to the community, build meaningful connections, and provide companionship and assistance to those in need lft. </p>
+                <div class="container-timeline lft">
+                    <img src="assests/trophy.jpg" alt="">
+                    <div class="text-box">
+                        <h2>Active Communist Club</h2>
+                        <small>2017-Current</small>
+                        <p>I actively serve the old age home community, dedicating my time to supporting and engaging with the elderly. This experience has been incredibly rewarding, as it allows me to give back to the community, build meaningful connections, and provide companionship and assistance to those in need.</p>
+                        <span class="lft-arrow"></span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -126,7 +252,7 @@
             <div class="typer">
                 <p class="call">Let's Work Together</p>
             </div>
-            <div class="btn-container">      
+            <div class="contact-container">      
                 <button class="btn mail" >
                     <a href="mailto:meetvachhani77@gmail.com">meetvachhani77@gmail.com</a>
                 </button>
@@ -135,7 +261,7 @@
                 </button>
             </div>
             <footer>
-                <p><span>Copyrights </span><br><br> © Meet Vachhani 2024</p>
+                <p><span class="copy">Copyrights</span><br><br> © Meet Vachhani 2024</p>
                 <div class="icons">
                     <p>Socials</p>
                     <a href="https://www.instagram.com/itsmeetvachhani/"><i class="fa-brands fa-instagram"></i></a>
